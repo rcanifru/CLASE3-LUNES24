@@ -1,0 +1,30 @@
+@import url(https://fonts.google.com/selection/embed);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(240, 235, 235);
+    font-family: "Winky Sans", sans-serif;
+    margin: 5%;
+    line-height: 1.6;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(28, 123, 54, 0.1);
+}
+header{
+    text-align: center;
+    color: rgba(88, 195, 227);
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+    background-image: url('./Imagenes/fondo.jpg');
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
